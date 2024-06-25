@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { BackBtn } from '@cnamts/synapse-bridge'
+import { BackBtn } from '@cnamts/synapse-bridge';
 </script>
 
 <template>

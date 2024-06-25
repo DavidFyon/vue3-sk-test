@@ -18,12 +18,13 @@
   "dependencies": {
     "@cnamts/design-tokens": "2.16.6",
     "@cnamts/synapse-bridge": "1.4.1-alpha.0",
+    "@mdi/font": "^7.4.47",
     "pinia": "^2.1.7",
     "vue": "^3.4.29",
-    "vue-router": "^4.3.3"
+    "vue-router": "^4.3.3",
+    "vuetify": "^3.5.10"
   },
   "devDependencies": {
-    "@mdi/js": "7.2.96",
     "@rushstack/eslint-patch": "^1.8.0",
     "@tsconfig/node20": "^20.1.4",
     "@types/jsdom": "^21.1.7",

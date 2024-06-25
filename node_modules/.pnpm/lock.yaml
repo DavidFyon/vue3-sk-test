@@ -10,7 +10,10 @@ dependencies:
     version: 2.16.6
   '@cnamts/synapse-bridge':
     specifier: 1.4.1-alpha.0
-    version: 1.4.1-alpha.0(vue@3.4.30)(vuetify@3.5.10)(vuex@4.1.0)
+    version: 1.4.1-alpha.0(vue@3.4.30)(vuetify@3.6.10)(vuex@4.1.0)
+  '@mdi/font':
+    specifier: ^7.4.47
+    version: 7.4.47
   pinia:
     specifier: ^2.1.7
     version: 2.1.7(typescript@5.4.5)(vue@3.4.30)
@@ -20,11 +23,11 @@ dependencies:
   vue-router:
     specifier: ^4.3.3
     version: 4.4.0(vue@3.4.30)
+  vuetify:
+    specifier: ^3.5.10
+    version: 3.6.10(typescript@5.4.5)(vue@3.4.30)
 
 devDependencies:
-  '@mdi/js':
-    specifier: 7.2.96
-    version: 7.2.96
   '@rushstack/eslint-patch':
     specifier: ^1.8.0
     version: 1.10.3
@@ -479,7 +482,7 @@ packages:
     resolution: {integrity: sha512-at3kWqPxgNuVFcnoiPEex96/DXG22g6osI+IDNA2ttuBb2SfClDSRlrj/MroVMUfzvLGRzf3IggO5uG98fqiJQ==}
     dev: false
 
-  /@cnamts/synapse-bridge@1.4.1-alpha.0(vue@3.4.30)(vuetify@3.5.10)(vuex@4.1.0):
+  /@cnamts/synapse-bridge@1.4.1-alpha.0(vue@3.4.30)(vuetify@3.6.10)(vuex@4.1.0):
     resolution: {integrity: sha512-AECySHm2KN7GBwtokMUTo4FMRuQks7M5gUlthELCnUzJ89R1o76pm/d/FzR2bjUxN4yG3qfoaqILYopWD9t2Ww==}
     peerDependencies:
       vue: ^3.4.21
@@ -490,7 +493,7 @@ packages:
       '@vuepic/vue-datepicker': 8.8.0(vue@3.4.30)
       consola: 2.15.3
       vue: 3.4.30(typescript@5.4.5)
-      vuetify: 3.5.10(typescript@5.4.5)(vue@3.4.30)
+      vuetify: 3.6.10(typescript@5.4.5)(vue@3.4.30)
       vuex: 4.1.0(vue@3.4.30)
     dev: false
 
@@ -858,9 +861,9 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@mdi/js@7.2.96:
-    resolution: {integrity: sha512-paR9M9ZT7rKbh2boksNUynuSZMHhqRYnEZOm/KrZTjQ4/FzyhjLHuvw/8XYzP+E7fS4+/Ms/82EN1pl/OFsiIA==}
-    dev: true
+  /@mdi/font@7.4.47:
+    resolution: {integrity: sha512-43MtGpd585SNzHZPcYowu/84Vz2a2g31TvPMTm9uTiCSWzaheQySUcSyUH/46fPnuPQWof2yd0pGBtzee/IQWw==}
+    dev: false
 
   /@messageformat/core@3.3.0:
     resolution: {integrity: sha512-YcXd3remTDdeMxAlbvW6oV9d/01/DZ8DHUFwSttO3LMzIZj3iO0NRw+u1xlsNNORFI+u0EQzD52ZX3+Udi0T3g==}
@@ -4792,15 +4795,15 @@ packages:
       '@vue/shared': 3.4.30
       typescript: 5.4.5
 
-  /vuetify@3.5.10(typescript@5.4.5)(vue@3.4.30):
-    resolution: {integrity: sha512-UutmZX7lAJfneAHx75DaONBD0w3zRGok7HE+dDepWyWMh0vOSUPLap5WXu80UwUNcTT2j0OYWYAsnTK/bJ/c1A==}
+  /vuetify@3.6.10(typescript@5.4.5)(vue@3.4.30):
+    resolution: {integrity: sha512-Myd9+EFq4Gmu61yKPNVS0QdGQkcZ9cHom27wuvRw7jgDxM+X4MT9BwQRk/Dt1q3G3JlK8oh+ZYyq5Ps/Z73cMg==}
     engines: {node: ^12.20 || >=14.13}
     peerDependencies:
       typescript: '>=4.7'
-      vite-plugin-vuetify: '>=1.0.0-alpha.12'
+      vite-plugin-vuetify: '>=1.0.0'
       vue: ^3.3.0
       vue-i18n: ^9.0.0
-      webpack-plugin-vuetify: '>=2.0.0-alpha.11'
+      webpack-plugin-vuetify: '>=2.0.0'
     peerDependenciesMeta:
       typescript:
         optional: true

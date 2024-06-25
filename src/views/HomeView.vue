@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import { BackBtn } from '@cnamts/synapse-bridge'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+    <v-btn color="primary">Coucou</v-btn>
+    <BackBtn />
 </template>

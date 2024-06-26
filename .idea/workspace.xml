@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="594d4bb4-366b-46bf-a56a-0ab1d95ae75b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/assets/HomeView-Dlzk9Vm2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/MaintenanceView-n1BrcaDi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/NotFoundView-BAiibt4C.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/TokensView-6A6Nlx6q.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/index-D6Tlg02R.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/index-nxhgctKj.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.tmp/tsconfig.app.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.tmp/tsconfig.app.tsbuildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.tmp/tsconfig.vitest.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.tmp/tsconfig.vitest.tsbuildinfo" afterDir="false" />
-    </list>
+    <list default="true" id="594d4bb4-366b-46bf-a56a-0ab1d95ae75b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +66,7 @@
       <workItem from="1719319267478" duration="9263000" />
       <workItem from="1719385833791" duration="4860000" />
       <workItem from="1719391018896" duration="302000" />
-      <workItem from="1719391328976" duration="1943000" />
+      <workItem from="1719391328976" duration="2280000" />
     </task>
     <servers />
   </component>

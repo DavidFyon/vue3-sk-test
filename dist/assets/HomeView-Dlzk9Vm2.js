@@ -1,1 +1,0 @@
-import{d as t,c as a,a as e,w as n,u as r,F as s,r as c,o as _,b as m,j as p}from"./index-D6Tlg02R.js";const i=t({__name:"HomeView",setup(u){return(l,d)=>{const o=c("v-btn");return _(),a(s,null,[e(o,{color:"primary"},{default:n(()=>[m("Coucou")]),_:1}),e(r(p))],64)}}});export{i as default};

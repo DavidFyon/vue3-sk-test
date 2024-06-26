@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-primary">{{ config && config.public ? config.public.title : 'Accueil' }}</h1>
+  <h1 class="text-primary">{{ data ? data.config.value.title : 'Accueil' }}</h1>
   <div class="mt-6 mb-12 d-flex align-center justify-center">
     <VCard width="695" variant="tonal" class="d-flex">
       <img src="/starter-kit.svg" alt="Starter kit"/>
@@ -18,7 +18,7 @@
           Exemple de composant Vue
         </v-card-title>
         <v-card-item>
-          <HelloWorld :msg="config && config.public ? config.public.message : 'Bonjour'"/>
+          <HelloWorld :msg="data ? data.config.value.message : 'Bonjour'"/>
         </v-card-item>
       </v-card>
     </v-col>
@@ -48,5 +48,7 @@
 <script setup lang="ts">
 import HelloWorld from '../components/HelloWorld.vue';
 import { BackBtn } from '@cnamts/synapse-bridge';
-import config from '../composables/injectEnv';
+import { getConfig } from '../composables/injectEnv';
+
+const data = getConfig();
 </script>

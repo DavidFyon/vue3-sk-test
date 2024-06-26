@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="594d4bb4-366b-46bf-a56a-0ab1d95ae75b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/_redirects" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/index-CiJtx6bc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.tmp/tsconfig.app.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.tmp/tsconfig.app.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.tmp/tsconfig.vitest.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.tmp/tsconfig.vitest.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composables/injectEnv.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/composables/injectEnv.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/HomeView.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +74,7 @@
       <workItem from="1719319267478" duration="9263000" />
       <workItem from="1719385833791" duration="4860000" />
       <workItem from="1719391018896" duration="302000" />
-      <workItem from="1719391328976" duration="2759000" />
+      <workItem from="1719391328976" duration="3459000" />
     </task>
     <servers />
   </component>

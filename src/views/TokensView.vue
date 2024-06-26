@@ -34,7 +34,6 @@ const selectedColor = ref('');
 const theme = useTheme();
 
 const groupedColors = computed(() => {
-  console.log(theme)
   const colors = theme.current.value.colors || {};
   const grouped = {};
   for (const color in colors) {

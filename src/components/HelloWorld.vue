@@ -5,5 +5,5 @@ defineProps<{
 </script>
 
 <template>
-    <h1 class="green">{{ msg }}</h1>
+    <h1 class="text-primary">{{ msg }}</h1>
 </template>

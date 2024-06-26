@@ -1,4 +1,5 @@
 import './assets/styles/index.scss'
+import "@cnamts/synapse-bridge/style.css"
 import {colorTheme} from '@cnamts/design-tokens/src/colors'
 
 import { createApp } from 'vue'
